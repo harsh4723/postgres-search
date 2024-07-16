@@ -1,0 +1,1 @@
+docker run --rm -v `pwd`:/data -i grafana/k6 run - < pg-ts-loadtest.js
